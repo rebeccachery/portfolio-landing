@@ -23,6 +23,24 @@ const projects: Project[] = [
   },
   {
     num: "02",
+    title: "Founder OS",
+    problem: "Running a solo speech-AI startup means fundraising research, application tracking, and OSS discovery are all manual and scattered across tabs.",
+    built: "An internal OS of AI agents that scouts funding opportunities, ranks open-source resources, and tracks applications through a unified founder dashboard.",
+    learned: "The same agent-orchestration patterns behind Polyflow's speech pipelines generalize cleanly to founder-ops automation.",
+    tech: ["Python", "FastAPI", "SQLite", "Next.js", "GitHub Actions"],
+    href: "https://github.com/rebeccachery/founder-os",
+  },
+  {
+    num: "03",
+    title: "Haitian Educational Equity Map",
+    problem: "Haitian communities' educational needs are invisible in most planning tools — no easy way to see where language barriers, low internet access, and school support gaps overlap.",
+    built: "A geospatial platform overlaying Haitian population density, a composite educational-need score, and school/library locations across NYC and Miami metros.",
+    learned: "The same on-the-ground research into Haitian Creole speakers that shaped Polyflow surfaces directly in where the educational need is greatest.",
+    tech: ["Next.js", "TypeScript", "Plotly", "Census ACS API", "GeoJSON"],
+    href: "https://github.com/rebeccachery/nyc_map",
+  },
+  {
+    num: "04",
     title: "Semantic Audio Map",
     problem: "Voice memos are hard to organize into actionable structure.",
     built: "A voice-to-graph pipeline that transcribes audio and extracts editable mind-map nodes.",
@@ -31,7 +49,7 @@ const projects: Project[] = [
     href: "https://github.com/rebeccachery/semantic_mind_map_tool",
   },
   {
-    num: "03",
+    num: "05",
     title: "Audio Memory Map",
     problem: "Personal audio memories lose place and context over time.",
     built: "A spatial audio app for recording, transcribing, and geotagging voice memories on a map.",
@@ -40,7 +58,7 @@ const projects: Project[] = [
     href: "https://github.com/rebeccachery/audio-memory-map",
   },
   {
-    num: "04",
+    num: "06",
     title: "Play-by-Ear Music Instrument Tutor",
     problem: "Learners need immediate feedback on pitch and rhythm without a teacher present.",
     built: "An audio analysis pipeline for pitch tracking, melody alignment, and note-level scoring.",
@@ -49,7 +67,7 @@ const projects: Project[] = [
     href: "https://github.com/rebeccachery/play-by-ear-music-tutor",
   },
   {
-    num: "05",
+    num: "07",
     title: "ISTWA",
     problem: "Historical narratives rarely feel interactive or culturally grounded online.",
     built: "An animated historical narrative experience framing the Haitian Revolution through story and design.",
@@ -58,7 +76,7 @@ const projects: Project[] = [
     href: "https://istwa-site.vercel.app",
   },
   {
-    num: "06",
+    num: "08",
     title: "SandwichBot",
     problem: "Multi-step physical tasks are brittle when planning and control stay disconnected.",
     built: "An autonomous robot using LLM-based task planning and vision under real manipulation constraints.",

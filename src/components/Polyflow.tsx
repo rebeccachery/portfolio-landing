@@ -43,7 +43,8 @@ export function Polyflow() {
             <p className="polyflow-desc">
               An early-stage AI speech platform focused on under-resourced languages —
               starting with Haitian Creole — combining dataset infrastructure, models,
-              and product surfaces people can actually practice with.
+              and product surfaces people can actually practice with. Built alongside
+              the founder tooling and community research that keep it grounded.
             </p>
             <ul className="polyflow-facts">
               <li>1,000+ person waitlist with 42% organic referrals</li>
@@ -62,6 +63,18 @@ export function Polyflow() {
             >
               Visit polyflow.xyz ↗
             </a>
+
+            <div className="polyflow-ecosystem">
+              <p className="polyflow-ecosystem-label">Built alongside Polyflow</p>
+              <div className="polyflow-ecosystem-links">
+                <a href="https://github.com/rebeccachery/founder-os" target="_blank" rel="noreferrer">
+                  Founder OS ↗
+                </a>
+                <a href="https://github.com/rebeccachery/nyc_map" target="_blank" rel="noreferrer">
+                  Haitian Educational Equity Map ↗
+                </a>
+              </div>
+            </div>
           </div>
 
           <figure className="polyflow-figure">

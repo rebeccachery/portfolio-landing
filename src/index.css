@@ -650,6 +650,39 @@ textarea {
   margin-bottom: var(--space-5);
 }
 
+.polyflow-ecosystem {
+  margin-top: var(--space-5);
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--border);
+}
+
+.polyflow-ecosystem-label {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--faint);
+  margin-bottom: var(--space-2);
+}
+
+.polyflow-ecosystem-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.polyflow-ecosystem-links a {
+  font-size: 0.875rem;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--border-strong);
+  transition: color 0.2s var(--ease), border-color 0.2s var(--ease);
+}
+
+.polyflow-ecosystem-links a:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
 .polyflow-figure {
   margin: 0;
   width: 100%;
