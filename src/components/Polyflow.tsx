@@ -57,11 +57,11 @@ export function Polyflow() {
             </p>
             <a
               className="btn btn-outline"
-              href="https://polyflow.xyz"
+              href="https://polyflow-landing-three.vercel.app/"
               target="_blank"
               rel="noreferrer"
             >
-              Visit polyflow.xyz ↗
+              Visit polyflow-landing-three.vercel.app ↗
             </a>
 
             <div className="polyflow-ecosystem">
